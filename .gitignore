@@ -1,0 +1,15 @@
+# Virtual environments and caches
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Model weights (download separately)
+*.pt
+
+# Sample media (download separately; keep the folder itself)
+data/*
+!data/.gitkeep
+
+# Generated run results
+outputs/
